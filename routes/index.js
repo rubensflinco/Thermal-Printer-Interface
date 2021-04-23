@@ -4,17 +4,23 @@ var print = require('../functions/print.js');
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-  res.render('pages/index');
+  res.render('pages/index', {impresso: req.query.impresso});
 });
 
 router.get('/imprimir', function (req, res, next) {
   print.run(req.query.texto).then((resPrint) => {
-    res.send(`<h1>${resPrint}</h1>`);
-    setTimeout(()=>{
-      res.redirect("/");
-    }, 5000)
+
+    res.redirect("/?impresso=true");
+
   }).catch((err) => {
-    res.send(`<h1>ERRO: ${err}</h1>`);
+
+    res.render('pages/error', {
+      message: "Erro na Impressão",
+      error:{
+        status: 01
+      }
+    });
+
   })
 });
 

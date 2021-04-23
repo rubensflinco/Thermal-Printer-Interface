@@ -2,21 +2,38 @@
 <title>Home</title>
 </head>
 
-<body class="d-flex align-items-center" style="height: 100vh">
-<div class="container">
+<body>
+  <div class="d-flex align-items-center" style="height: 100vh">
+    <div class="container">
 
-  <form action="/imprimir" method="GET">
-    <div class="col-auto">
-      <label for="texto" class="form-label">Texto a ser impresso:</label>
-      <textarea class="form-control" name="texto" id="texto" rows="5"></textarea>
-    </div>
-    <div class="col-auto">
-      <br/>
-      <button type="submit" class="btn btn-primary btn-lg mb-3">Imprimir</button>
-    </div>
-  </form>
+      <form action="/imprimir" method="GET">
+        <div class="col-auto">
+          <label for="texto" class="form-label">Texto a ser impresso:</label>
+          <textarea class="form-control" name="texto" id="texto" rows="5"></textarea>
+        </div>
+        <div class="col-auto">
+          <br/>
+          <button type="submit" class="btn btn-primary btn-lg mb-3">Imprimir</button>
+        </div>
+      </form>
 
-</div>
+    </div>
+  </div>
+
+  <%if (impresso === "true") { %>
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 5">
+      <div class="toast fade show bg-success" role="alert">
+        <div class="toast-header text-success">
+          <strong class="me-auto">Impressora</strong>
+          <small>a poucos segundos</small>
+        </div>
+        <div class="toast-body text-white">
+          Seu texto foi impresso!
+        </div>
+      </div>
+    </div>
+  <% } %>
+    
 </body>
 
 <%- include('../partials/footer'); %>

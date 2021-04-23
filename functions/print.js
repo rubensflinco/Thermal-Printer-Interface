@@ -25,9 +25,9 @@ function run(texto) {
 				printer.printLine('Thermal Interface')
 				printer.printLine('-------------------')
 				printer.lineFeed(1)
-				
+
 				textos.forEach(linha => {
-					printer.printLine(linha)
+					printer.printLine(decodeURI(linha))
 				});
 
 				printer.lineFeed(3)
