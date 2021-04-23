@@ -1,0 +1,12 @@
+    <%- include('../partials/header'); %>
+    <title>Erro <%= error.status %> - <%= message %></title>
+</head>
+
+<body class="d-flex align-items-center" style="height: 100vh">
+    <div class="container text-center">
+        <h1><%= message %></h1>
+        <h2><i class="fad fa-times animate__animated  animate__tada"></i> <%= error.status %></h2>
+    </div>
+</body>
+
+<%- include('../partials/footer'); %>
