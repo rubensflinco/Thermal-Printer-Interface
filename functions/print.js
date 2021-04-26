@@ -1,7 +1,7 @@
 function run(texto) {
 	return new Promise((sucesso, erro) => {
 		const SerialPort = require('serialport');
-		const serialPort = new SerialPort('/dev/serial0', {
+		const serialPort = new SerialPort('/dev/ttyS0', {
 			baudRate: 19200
 		});
 		const Printer = require('thermalprinter');
