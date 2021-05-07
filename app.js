@@ -4,6 +4,8 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 const SerialPort = require('serialport');
+var ip = require('ip');
+var print = require('./functions/print');
 
 var app = express();
 
@@ -37,7 +39,16 @@ app.use(function (err, req, res, next) {
 
 app.listen(80, () => {
   console.log("[Server] Servidor aberto na porta 80");
+  console.log(`[Server] Ip da maquina ${ip.address()}`);
 
+  print.run(`
+    Ip atual da interface web:
+    ${ip.address()}
+  `).then(() => {
+    console.log("[Print] Imprimiu o ip");
+  }).catch(() => {
+    console.log("[Print] Erro em imprimir o ip");
+  })
 
   SerialPort.list().then(function (ports) {
     ports.forEach(function (port) {
