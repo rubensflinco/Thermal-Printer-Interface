@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "[Server - start.sh] Instalando pacotes..."
-npm install
+sudo npm install
 
 echo "[Server - start.sh] Iniciando servidor no nodemon..."
-npx nodemon app.js
+node app.js
