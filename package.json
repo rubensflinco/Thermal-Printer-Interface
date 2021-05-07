@@ -1,9 +1,9 @@
 {
   "name": "thermal-printer-interface",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "npx nodemon app.js"
+    "start": "sh start.sh"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
