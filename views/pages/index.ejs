@@ -1,8 +1,11 @@
 <%- include('../partials/header'); %>
-<title>Home</title>
+<title>Home - Thermal Interface</title>
 </head>
 
 <body>
+
+  <%- include('../partials/navbar'); %>
+
   <div class="d-flex align-items-center" style="height: 100vh">
     <div class="container">
 
@@ -21,17 +24,21 @@
   </div>
 
   <%if (impresso === "true") { %>
-    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 5">
+    <div class="position-fixed bottom-0 end-0 p-2 notificacao" style="z-index: 5">
       <div class="toast fade show bg-success" role="alert">
         <div class="toast-header text-success">
           <strong class="me-auto">Impressora</strong>
-          <small>a poucos segundos</small>
         </div>
         <div class="toast-body text-white">
           Seu texto foi impresso!
         </div>
       </div>
     </div>
+    <script>
+      setTimeout(()=>{
+        $(".notificacao").remove();
+      }, 5000);
+    </script>
   <% } %>
     
 </body>
