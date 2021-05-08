@@ -46,15 +46,19 @@ app.listen(80, async() => {
       console.log("[Print] Portas da raspberry: ", port);
     })
 
-
-    print.run(`
-      Ip atual da interface web:
-      ${await ip.address()}
-    `).then(() => {
-      console.log("[Print] Imprimiu o ip");
-    }).catch(() => {
-      console.log("[Print] Erro em imprimir o ip");
-    })
+    await print.run(` Ligando, test impressão... `);
+    setTimeout(()=>{
+      let ip = await ip.address();
+      print.run(`
+        Ip atual da interface web:
+        ${ip}
+      `).then(() => {
+        console.log("[Print] Imprimiu o ip");
+      }).catch((err) => {
+        console.log("[Print] Erro em imprimir o ip");
+        console.log(err);
+      })
+    }, 10000);
   });
 
 });
