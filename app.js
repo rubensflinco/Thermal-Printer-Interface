@@ -47,7 +47,7 @@ app.listen(80, async() => {
     })
 
     await print.run(` Ligando, test impressão... `);
-    setTimeout(()=>{
+    setTimeout(async()=>{
       let ip = await ip.address();
       print.run(`
         Ip atual da interface web:
