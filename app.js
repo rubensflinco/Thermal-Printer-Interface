@@ -37,19 +37,19 @@ app.use(function (err, req, res, next) {
   res.render('pages/error');
 });
 
-app.listen(80, () => {
+app.listen(80, async() => {
   console.log("[Server] Servidor aberto na porta 80");
   console.log(`[Server] Ip da maquina ${ip.address()}`);
 
-  SerialPort.list().then(function (ports) {
+  SerialPort.list().then(async function (ports) {
     ports.forEach(function (port) {
       console.log("[Print] Portas da raspberry: ", port);
     })
-    
+
 
     print.run(`
       Ip atual da interface web:
-      ${ip.address()}
+      ${await ip.address()}
     `).then(() => {
       console.log("[Print] Imprimiu o ip");
     }).catch(() => {
