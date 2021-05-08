@@ -37,7 +37,7 @@ app.use(function (err, req, res, next) {
   res.render('pages/error');
 });
 
-app.listen(80, async() => {
+app.listen(80, async () => {
   console.log("[Server] Servidor aberto na porta 80");
   console.log(`[Server] Ip da maquina ${ip.address()}`);
 
@@ -46,19 +46,12 @@ app.listen(80, async() => {
       console.log("[Print] Portas da raspberry: ", port);
     })
 
+    let ipAtual = await ip.address();
     await print.run(` Ligando, test impressão... `);
-    setTimeout(async()=>{
-      let ip = await ip.address();
-      print.run(`
-        Ip atual da interface web:
-        ${ip}
-      `).then(() => {
-        console.log("[Print] Imprimiu o ip");
-      }).catch((err) => {
-        console.log("[Print] Erro em imprimir o ip");
-        console.log(err);
-      })
-    }, 10000);
+    await print.run(`
+      Ip atual da interface web:
+      ${ipAtual}
+    `);
   });
 
 });
