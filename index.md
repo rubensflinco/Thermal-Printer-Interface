@@ -12,7 +12,7 @@ header {
 # Thermal-Printer-Interface
 
 [![Doação](https://img.shields.io/badge/Fa%C3%A7a%20uma-Doa%C3%A7%C3%A3o-blue?style=for-the-badge)](http://pay.fdoma.in/assinatura/ndZbDVNPtMj16NaQ)
-[![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-brightgreen?style=for-the-badge)](license.md)
+[![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-brightgreen?style=for-the-badge)](https://github.com/JotinhaBR/Thermal-Printer-Interface/blob/main/license.md)
 
 Interface NodeJS Express para impressora térmica Adafruit ou Sparkfun conectadas a uma Raspberry com o sistema Raspbian OS
 
@@ -104,6 +104,6 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
 # 📝 Licença
 
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](license.md) para mais detalhes.
+Esse projeto está sob licença. Veja o arquivo [LICENÇA](https://github.com/JotinhaBR/Thermal-Printer-Interface/blob/main/license.md) para mais detalhes.
 
-[⬆ Voltar ao topo](#Thermal-Printer-Interface)<br>
+[⬆ Voltar ao topo](#)<br>
