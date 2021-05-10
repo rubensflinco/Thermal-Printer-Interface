@@ -1,5 +1,5 @@
 ---
-title: 
+title: null
 tags: [formatting]
 keywords: Printer Interface, Thermal Printer Interface, Interface para impressora Termica em NodeJS, Interface Thermal Nodejs
 last_updated: Maio 9, 2021
