@@ -1,5 +1,6 @@
+MIT License
+
 # Português BR:
-Licença MIT 
 
 Copyright (c) 2021 Rubens Flinco
 
@@ -22,8 +23,6 @@ FORA DE OU EM CONEXÃO COM O SOFTWARE OU O USO OU OUTRAS NEGOCIAÇÕES NO
 PROGRAMAS.
 
 # Inglês EUA:
-
-MIT License
 
 Copyright (c) 2021 Rubens Flinco
 
