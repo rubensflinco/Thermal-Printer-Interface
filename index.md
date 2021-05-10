@@ -3,11 +3,7 @@ keywords: Printer Interface, Thermal Printer Interface, Interface para impressor
 last_updated: Maio 9, 2021
 ---
 
-<style>
-header {
-  display: none;
-}
-</style>
+@import "style.css";
 
 # Thermal-Printer-Interface
 
