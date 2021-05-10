@@ -1,8 +1,11 @@
-@import "./style.css";
 ---
 keywords: Printer Interface, Thermal Printer Interface, Interface para impressora Termica em NodeJS, Interface Thermal Nodejs
 last_updated: Maio 9, 2021
 ---
+
+@import "./style.css";
+
+
 
 # Thermal-Printer-Interface
 
