@@ -7,6 +7,7 @@ last_updated: Maio 9, 2021
 
 
 
+
 # Thermal-Printer-Interface
 
 [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JotinhaBR/Thermal-Printer-Interface)
