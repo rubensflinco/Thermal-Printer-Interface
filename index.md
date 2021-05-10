@@ -8,7 +8,7 @@ Interface NodeJS Express para impressora térmica Adafruit ou Sparkfun conectada
 <center>
   <img src="https://i.imgur.com/FmYRJ9k.png" alt="Print mobile Thermal Printer Interface" align="left" width="25%" />
   <img src="https://i.imgur.com/EmrDJS1.png" alt="Print mobile Thermal Printer Interface" width="70%" />
-  <br/>
+  <br/><br/>
 </center>
 
 # 🖨 Requisitos de hardware
