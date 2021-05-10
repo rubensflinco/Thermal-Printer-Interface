@@ -7,7 +7,8 @@ last_updated: Maio 9, 2021
 
 # Thermal-Printer-Interface
 
-[![Doação](https://img.shields.io/badge/Fa%C3%A7a%20uma-Doa%C3%A7%C3%A3o-blue?style=for-the-badge)](http://pay.fdoma.in/assinatura/ndZbDVNPtMj16NaQ)
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JotinhaBR/Thermal-Printer-Interface)
+[![Doação](https://img.shields.io/badge/Fa%C3%A7a%20uma-Doa%C3%A7%C3%A3o%20☕-blue?style=for-the-badge)](http://pay.fdoma.in/assinatura/ndZbDVNPtMj16NaQ)
 [![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-brightgreen?style=for-the-badge)](https://github.com/JotinhaBR/Thermal-Printer-Interface/blob/main/license.md)
 
 Interface NodeJS Express para impressora térmica Adafruit ou Sparkfun conectadas a uma Raspberry com o sistema Raspbian OS
