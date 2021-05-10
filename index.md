@@ -3,6 +3,12 @@ keywords: Printer Interface, Thermal Printer Interface, Interface para impressor
 last_updated: Maio 9, 2021
 ---
 
+<style>
+header {
+  display: none;
+}
+</style>
+
 # Thermal-Printer-Interface
 
 [![Doação](https://img.shields.io/badge/Fa%C3%A7a%20uma-Doa%C3%A7%C3%A3o-blue?style=for-the-badge)](http://pay.fdoma.in/assinatura/ndZbDVNPtMj16NaQ)
