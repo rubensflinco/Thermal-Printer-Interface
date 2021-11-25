@@ -1,6 +1,6 @@
 # Thermal-Printer-Interface
 
-[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JotinhaBR/Thermal-Printer-Interface)
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rubensflinco/Thermal-Printer-Interface)
 [![Doação](https://img.shields.io/badge/Fa%C3%A7a%20uma-Doa%C3%A7%C3%A3o%20☕-blue?style=for-the-badge)](http://pay.fdoma.in/assinatura/ndZbDVNPtMj16NaQ)
 [![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-brightgreen?style=for-the-badge)](license.md)
 
@@ -32,7 +32,7 @@ Interface NodeJS Express para impressora térmica Adafruit ou Sparkfun conectada
 </center>
 
 # 👨‍💻 Instalando Thermal Printer Interface na Raspberry
-- Vá até a sua pasta "Documents" execute o seguinte comando via terminal `git clone https://github.com/JotinhaBR/Thermal-Printer-Interface`
+- Vá até a sua pasta "Documents" execute o seguinte comando via terminal `git clone https://github.com/rubensflinco/Thermal-Printer-Interface`
 - Acesse a pasta criada do repositorio usando o comando `cd Thermal-Printer-Interface/`
 - Para iniciar o servidor web da interface digite `sudo npm start`
 - Pronto automaticamente irá fazer atualizações de pacotes npm e irá iniciar o servidor, caso você queira fazer o servidor iniciar automatico ao ligar veja os proximos passos:
